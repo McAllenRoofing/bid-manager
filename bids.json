@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-21T16:10:58.626Z",
+  "updatedAt": "2026-08-21T16:14:25.520Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -190,6 +190,17 @@
       "project": "James Avery Artisan Jewelry",
       "gc": "EIB Contractors Inc",
       "address": "2373 South Brahma Blvd Kingsville, TX 78363",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "de1120e0-1b09-4348-a589-2000ef7206ba",
+      "date": "2026-08-24",
+      "project": "Guerlain Lot 1",
+      "gc": "Los Lagos Development LLC",
+      "address": "2100 S. Raul Longoria",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
