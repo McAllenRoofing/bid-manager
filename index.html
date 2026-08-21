@@ -49,7 +49,7 @@ tbody tr td{background:#fff!important}tbody tr:hover td{background:#f8fafc!impor
 <div class="card kpi"><div class="label">Due Today</div><div class="value" id="todayCount">0</div></div>
 <div class="card kpi"><div class="label">Due Tomorrow</div><div class="value" id="tomorrowCount">0</div></div>
 <div class="card kpi"><div class="label">Next 7 Days</div><div class="value" id="next7Count">0</div></div>
-<div class="card kpi"><div class="label">Open Bids</div><div class="value" id="openBidCount">0</div><div id="counterStamp" style="font-size:10px;color:var(--muted);margin-top:5px"></div></div>
+<div class="card kpi"><div class="label">Total Bid Amount Sent</div><div class="value" id="totalSentValue">$0</div><div id="counterStamp" style="font-size:10px;color:var(--muted);margin-top:5px"></div></div>
 </div>
 
 <div class="grid">
@@ -63,7 +63,7 @@ tbody tr td{background:#fff!important}tbody tr:hover td{background:#f8fafc!impor
 <div class="stat"><span>Total records</span><strong id="totalCount">0</strong></div>
 </div></div>
 <div class="card"><div class="head"><h2>Priority Guide</h2></div><div class="body">
-<h2 style="margin-top:0">Bid date determines priority.</h2><p style="color:var(--muted);line-height:1.7">The top cards count the exact records shown in your bid database: today, tomorrow, the next 7 days, and all open future bids.</p>
+<h2 style="margin-top:0">Bid date determines priority.</h2><p style="color:var(--muted);line-height:1.7">The top cards show bids due today, tomorrow, the next 7 days, and the total dollar value of bids marked Submitted.</p>
 <div class="legend"><span><i class="dot" style="background:var(--red)"></i>Today or tomorrow</span><span><i class="dot" style="background:var(--yellow)"></i>2–3 days</span><span><i class="dot" style="background:var(--green)"></i>4+ days</span></div>
 </div></div></div>
 
@@ -160,7 +160,8 @@ function refreshCounters(){
   const dueTomorrow=bids.filter(b=>b.date===tomorrowString&&b.status!=='Declined');
   const next7=bids.filter(b=>b.date>=todayString&&b.date<=next7End&&b.status!=='Declined');
   const openBids=bids.filter(b=>b.date>=todayString&&b.status!=='Declined'&&b.status!=='Submitted');
-  el('todayCount').textContent=String(dueToday.length);el('tomorrowCount').textContent=String(dueTomorrow.length);el('next7Count').textContent=String(next7.length);el('openBidCount').textContent=String(openBids.length);el('openValue').textContent=money(openBids.reduce((sum,b)=>sum+Number(b.amount||0),0));
+  const submittedBids=bids.filter(b=>b.status==='Submitted');
+  el('todayCount').textContent=String(dueToday.length);el('tomorrowCount').textContent=String(dueTomorrow.length);el('next7Count').textContent=String(next7.length);el('totalSentValue').textContent=money(submittedBids.reduce((sum,b)=>sum+Number(b.amount||0),0));el('openValue').textContent=money(openBids.reduce((sum,b)=>sum+Number(b.amount||0),0));
   el('todayDate').textContent=new Date().toLocaleDateString('en-US');el('monthCount').textContent=bids.filter(b=>String(b.date).startsWith(monthPrefix)).length;
   const lastWeekStart=addDaysYMD(weekStart,-7),lastWeekEnd=addDaysYMD(weekStart,-1),lastWeek=bids.filter(b=>b.date>=lastWeekStart&&b.date<=lastWeekEnd);
   el('lastWeekCount').textContent=lastWeek.length;el('lastWeekValue').textContent=money(lastWeek.reduce((sum,b)=>sum+Number(b.amount||0),0));el('yearCount').textContent=bids.filter(b=>String(b.date).startsWith(yearPrefix)).length;el('totalCount').textContent=bids.length;
