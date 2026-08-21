@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-21T16:14:25.520Z",
+  "updatedAt": "2026-08-21T16:26:30.850Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -102,7 +102,7 @@
       "address": "Harlingen TX",
       "roof": "Other",
       "amount": 0,
-      "status": "Invited",
+      "status": "Declined",
       "notes": ""
     },
     {
