@@ -20,8 +20,8 @@ button,input,select,textarea{font:inherit}.app{max-width:1500px;margin:auto;padd
 .entry{margin:15px 0}.entry-grid{display:grid;grid-template-columns:1fr 1.8fr 1.4fr 1.8fr 1.15fr 1fr 1fr 1.8fr auto;gap:8px}
 .field label{display:block;font-size:10px;color:#afc2d4;text-transform:uppercase;letter-spacing:.06em;margin:0 0 5px 3px}.field input,.field select,.field textarea{width:100%;min-height:42px;background:var(--input);border:2px solid #dcb91d;border-radius:9px;padding:9px;color:#172033}
 .add{align-self:end;min-height:42px;border:0;border-radius:10px;background:linear-gradient(135deg,#36d181,#15a45b);color:#fff;font-weight:900;padding:0 18px;cursor:pointer}
-.wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:1100px}th{background:#16304d;color:#bad0e3;text-align:left;font-size:11px;text-transform:uppercase;padding:11px;position:sticky;top:0}td{padding:11px;border-bottom:1px solid #29445f88;font-size:13px}
-tr.red td{background:#ff52632c}tr.yellow td{background:#ffd84d27}tr.green td{background:#47cf7d1c}.badge{padding:5px 8px;border-radius:999px;background:#1e3c5b;font-size:11px;font-weight:800}
+.wrap{overflow:auto;background:#fff}table{width:100%;border-collapse:collapse;min-width:1100px;background:#fff}th{background:#16304d;color:#bad0e3;text-align:left;font-size:11px;text-transform:uppercase;padding:11px;position:sticky;top:0}td{padding:11px;border-bottom:1px solid #dbe4ec;font-size:13px;background:#fff;color:#172033}
+tbody tr:hover td{background:#f6f9fc}tr.red td{background:#fff}tr.yellow td{background:#fff}tr.green td{background:#fff}tr.red td:first-child{border-left:6px solid #e32636;color:#c31424;font-weight:900}tr.yellow td:first-child{border-left:6px solid #e0ad00;color:#8a6a00;font-weight:900}tr.green td:first-child{border-left:6px solid #22a85a;color:#17783f;font-weight:900}.badge{padding:5px 8px;border-radius:999px;background:#e8eef5;color:#17324d;font-size:11px;font-weight:800}
 .actions{display:flex;gap:6px}.mini{background:#193550;border:1px solid #315a78;color:white;border-radius:7px;padding:5px 8px;cursor:pointer}
 .search{display:flex;gap:8px}.search input,.search select{background:#0b1b2b;border:1px solid var(--line);color:#fff;padding:9px;border-radius:8px}.empty{text-align:center;color:var(--muted);padding:35px}
 .toast{position:fixed;right:20px;bottom:20px;background:#112a43;border:1px solid #38658a;padding:12px 15px;border-radius:10px;opacity:0;transform:translateY(12px);transition:.2s;z-index:50}.toast.show{opacity:1;transform:none}
@@ -105,7 +105,13 @@ const r={
  upcoming:el('upcomingBody'),all:el('allBidsBody'),search:el('searchInput'),filter:el('statusFilter'),
  toast:el('toast'),modal:el('editModal')
 };
-function normalize(b){return{...b,address:b.address||b.contact||'',amount:Number(b.amount||0),id:b.id||String(Date.now()+Math.random())};}
+function amountNumber(v){
+  if(typeof v==='number') return Number.isFinite(v)?v:0;
+  const cleaned=String(v??'').replace(/[^0-9.-]/g,'');
+  const n=Number(cleaned);
+  return Number.isFinite(n)?n:0;
+}
+function normalize(b){return{...b,address:b.address||b.contact||'',amount:amountNumber(b.amount),id:b.id||String(Date.now()+Math.random())};}
 function load(){
   try{
     let raw=localStorage.getItem(KEY);
@@ -173,7 +179,7 @@ function refreshCounters(){
   el('tomorrowCount').textContent=String(dueTomorrow.length);
   el('next7Count').textContent=String(next7.length);
   el('openBidCount').textContent=String(openBids.length);
-  el('openValue').textContent=money(openBids.reduce((sum,b)=>sum+Number(b.amount||0),0));
+  el('openValue').textContent=money(openBids.reduce((sum,b)=>sum+amountNumber(b.amount),0));
 
   el('todayDate').textContent=new Date().toLocaleDateString('en-US');
   el('monthCount').textContent=bids.filter(b=>String(b.date).startsWith(monthPrefix)).length;
@@ -182,7 +188,7 @@ function refreshCounters(){
   const lastWeekEnd=addDaysYMD(weekStart,-1);
   const lastWeek=bids.filter(b=>b.date>=lastWeekStart&&b.date<=lastWeekEnd);
   el('lastWeekCount').textContent=lastWeek.length;
-  el('lastWeekValue').textContent=money(lastWeek.reduce((sum,b)=>sum+Number(b.amount||0),0));
+  el('lastWeekValue').textContent=money(lastWeek.reduce((sum,b)=>sum+amountNumber(b.amount),0));
   el('yearCount').textContent=bids.filter(b=>String(b.date).startsWith(yearPrefix)).length;
   el('totalCount').textContent=bids.length;
 
@@ -205,7 +211,7 @@ function addBid(){
  if(!r.date.value){msg('Enter the bid date.');r.date.focus();return;}
  if(!r.project.value.trim()){msg('Enter the project name.');r.project.focus();return;}
  const id=(window.crypto&&typeof window.crypto.randomUUID==='function')?window.crypto.randomUUID():String(Date.now());
- bids.push({id,date:r.date.value,project:r.project.value.trim(),gc:r.gc.value.trim(),address:r.address.value.trim(),roof:r.roof.value,amount:Number(r.amount.value||0),status:r.status.value,notes:r.notes.value.trim()});
+ bids.push({id,date:r.date.value,project:r.project.value.trim(),gc:r.gc.value.trim(),address:r.address.value.trim(),roof:r.roof.value,amount:amountNumber(r.amount.value),status:r.status.value,notes:r.notes.value.trim()});
  sort();save();render();clearEntry();msg('Bid added. Dashboard totals updated.');
 }
 function openEdit(id){
@@ -218,7 +224,7 @@ function closeEdit(){editingId=null;r.modal.classList.remove('show');}
 function saveEdit(){
  const b=bids.find(x=>x.id===editingId);if(!b)return;
  if(!el('editDate').value||!el('editProject').value.trim()){msg('Bid date and project name are required.');return;}
- b.date=el('editDate').value;b.project=el('editProject').value.trim();b.gc=el('editGc').value.trim();b.address=el('editAddress').value.trim();b.roof=el('editRoof').value;b.amount=Number(el('editAmount').value||0);b.status=el('editStatus').value;b.notes=el('editNotes').value.trim();
+ b.date=el('editDate').value;b.project=el('editProject').value.trim();b.gc=el('editGc').value.trim();b.address=el('editAddress').value.trim();b.roof=el('editRoof').value;b.amount=amountNumber(el('editAmount').value);b.status=el('editStatus').value;b.notes=el('editNotes').value.trim();
  sort();save();render();closeEdit();msg('Bid updated. Dashboard totals refreshed.');
 }
 function del(id){const b=bids.find(x=>x.id===id);if(!b||!confirm(`Delete "${b.project}"?`))return;bids=bids.filter(x=>x.id!==id);save();render();msg('Bid deleted.');}
