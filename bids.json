@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-21T17:09:15.348Z",
+  "updatedAt": "2026-08-21T17:12:12.548Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -290,6 +290,17 @@
       "gc": "Quantum Construction",
       "address": "6428 Sinatra Pkwy, Laredo, TX 78041",
       "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "69903969-db16-49ac-b73b-1df8a5b3dfec",
+      "date": "2026-09-03",
+      "project": "Rio Fresh",
+      "gc": "Gerlach Builders",
+      "address": "205 E. Expressway 83 Donna TX",
+      "roof": "Metal Roof",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
