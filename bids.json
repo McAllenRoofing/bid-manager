@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-21T16:26:30.850Z",
+  "updatedAt": "2026-08-21T17:09:15.348Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -166,11 +166,11 @@
       "id": "a834bf76-80ac-4081-8051-43b70b4fc40c",
       "date": "2026-08-21",
       "project": "BWW Pharr",
-      "gc": "",
+      "gc": "GulfCost Builders",
       "address": "7311 S. Jackson Rd. Suite 300 Pharr TX",
       "roof": "Other",
-      "amount": 0,
-      "status": "Estimating",
+      "amount": 5200,
+      "status": "Submitted",
       "notes": "Curbs and Pipes"
     },
     {
