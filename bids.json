@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-24T15:47:03.489Z",
+  "updatedAt": "2026-08-24T15:58:41.074Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -180,8 +180,8 @@
       "gc": "Helker & Crawford",
       "address": "North Closner Boulevard & East Schunior Street, Edinburg, TX 78541",
       "roof": "PVC",
-      "amount": 64600,
-      "status": "Submitted",
+      "amount": 0,
+      "status": "Estimating",
       "notes": ""
     },
     {
@@ -203,7 +203,7 @@
       "address": "2100 S. Raul Longoria",
       "roof": "TPO",
       "amount": 275300,
-      "status": "Submitted",
+      "status": "Estimating",
       "notes": ""
     },
     {
@@ -262,17 +262,6 @@
       "notes": ""
     },
     {
-      "id": "aba22843-8dcb-4ad0-9f7d-8a01b93fde05",
-      "date": "2026-08-31",
-      "project": "7 Eleven #42899",
-      "gc": "LS Builders",
-      "address": "Emerson - Brownsville",
-      "roof": "PVC",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
-    },
-    {
       "id": "a28c0ae4-e6bf-4e3f-a5f2-8e2acac056f0",
       "date": "2026-09-01",
       "project": "Zahn Road Lifeguard & Restoration Faclity",
@@ -300,28 +289,6 @@
       "project": "Sinatra Plaza",
       "gc": "Quantum Construction",
       "address": "6428 Sinatra Pkwy, Laredo, TX 78041",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
-    },
-    {
-      "id": "06a1f16e-337c-4fe3-b41f-ffeaafc4c909",
-      "date": "2026-09-03",
-      "project": "Rio Fresh",
-      "gc": "Gerlach Builders",
-      "address": "Donna",
-      "roof": "Metal Roof",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
-    },
-    {
-      "id": "cba9d4b1-1934-45dc-be91-2cf3132c432f",
-      "date": "2026-09-03",
-      "project": "Home Depot - Cypress",
-      "gc": "White-Spunner",
-      "address": "Cypress, TX",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
