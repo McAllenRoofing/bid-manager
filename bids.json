@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-21T21:37:10.207Z",
+  "updatedAt": "2026-08-24T13:32:30.657Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -257,6 +257,17 @@
       "gc": "Lonestar Builders",
       "address": "FM 78 & Crestway Converse TX",
       "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "aba22843-8dcb-4ad0-9f7d-8a01b93fde05",
+      "date": "2026-08-31",
+      "project": "7 Eleven #42899",
+      "gc": "LS Builders",
+      "address": "Emerson - Brownsville",
+      "roof": "PVC",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
