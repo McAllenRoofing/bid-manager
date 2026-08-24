@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-24T13:44:02.162Z",
+  "updatedAt": "2026-08-24T15:47:03.489Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -202,8 +202,8 @@
       "gc": "Los Lagos Development LLC",
       "address": "2100 S. Raul Longoria",
       "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
+      "amount": 275300,
+      "status": "Submitted",
       "notes": ""
     },
     {
