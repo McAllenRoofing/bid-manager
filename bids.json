@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-24T16:01:26.801Z",
+  "updatedAt": "2026-08-24T16:06:11.525Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -300,6 +300,17 @@
       "project": "Crunch Fitness",
       "gc": "Empire Construction",
       "address": "706 Dixieland Road, Harlingen, TX 78550",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "0ecabc76-3c5e-4b80-9d01-443f07cc09d0",
+      "date": "2026-09-07",
+      "project": "Quick Quack - Woodland Hills",
+      "gc": "Lonestar Builders",
+      "address": "Houston TX",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
