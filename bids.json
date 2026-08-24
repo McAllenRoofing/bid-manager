@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-24T13:40:58.345Z",
+  "updatedAt": "2026-08-24T13:44:02.162Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -312,6 +312,17 @@
       "gc": "Gerlach Builders",
       "address": "Donna",
       "roof": "Metal Roof",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "cba9d4b1-1934-45dc-be91-2cf3132c432f",
+      "date": "2026-09-03",
+      "project": "Home Depot - Cypress",
+      "gc": "White-Spunner",
+      "address": "Cypress, TX",
+      "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
