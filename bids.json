@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-25T13:24:27.397Z",
+  "updatedAt": "2026-08-25T20:24:37.440Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -211,9 +211,9 @@
       "date": "2026-08-26",
       "project": "Renovate Building 6403 Containment Lab at Moore Air Base",
       "gc": "Convigton Contracting",
-      "address": "Renovate Building 6403 Containment Lab at Moore Air Base",
+      "address": "Moore Air Base, Edinburg TX",
       "roof": "TPO",
-      "amount": 0,
+      "amount": 235238,
       "status": "Estimating",
       "notes": ""
     },
