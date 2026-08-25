@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-25T13:24:15.782Z",
+  "updatedAt": "2026-08-25T13:24:27.397Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -213,7 +213,7 @@
       "gc": "Convigton Contracting",
       "address": "Renovate Building 6403 Containment Lab at Moore Air Base",
       "roof": "TPO",
-      "amount": 100,
+      "amount": 0,
       "status": "Estimating",
       "notes": ""
     },
