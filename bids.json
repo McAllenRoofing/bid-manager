@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-26T21:10:34.854Z",
+  "updatedAt": "2026-08-26T21:11:47.313Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -196,17 +196,6 @@
       "notes": ""
     },
     {
-      "id": "c530fc27-3672-4d61-8f9f-76576e8ce9b4",
-      "date": "2026-08-21",
-      "project": "Starbucks Harlingen",
-      "gc": "Steeplechase Ventures LLC",
-      "address": "13th St. & 77 Sunshine St.",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
-    },
-    {
       "id": "de1120e0-1b09-4348-a589-2000ef7206ba",
       "date": "2026-08-24",
       "project": "Guerlain Lot 1",
@@ -246,6 +235,17 @@
       "gc": "Helker & Crawford",
       "address": "El Rancho Rd. & Jackson Rd., McAllen, TX 78577",
       "roof": "PVC",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "c530fc27-3672-4d61-8f9f-76576e8ce9b4",
+      "date": "2026-08-27",
+      "project": "Starbucks Harlingen",
+      "gc": "Steeplechase Ventures LLC",
+      "address": "13th St. & 77 Sunshine St.",
+      "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
