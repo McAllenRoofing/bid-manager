@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-26T21:11:47.313Z",
+  "updatedAt": "2026-08-26T21:12:04.696Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -214,7 +214,7 @@
       "address": "Moore Air Base, Edinburg TX",
       "roof": "TPO",
       "amount": 235238,
-      "status": "Estimating",
+      "status": "Submitted",
       "notes": ""
     },
     {
