@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-25T21:06:52.915Z",
+  "updatedAt": "2026-08-26T14:02:27.404Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -223,9 +223,9 @@
       "project": "Cross Point Veterinary Clinic",
       "gc": "Barcom Constrcution",
       "address": "FM 361 at Gregory Street Taft, TX 78390",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
+      "roof": "Metal Roof",
+      "amount": 220600,
+      "status": "Submitted",
       "notes": ""
     },
     {
