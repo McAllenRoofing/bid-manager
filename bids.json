@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-26T14:02:27.404Z",
+  "updatedAt": "2026-08-26T21:10:34.854Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -193,6 +193,17 @@
       "roof": "TPO",
       "amount": 0,
       "status": "Declined",
+      "notes": ""
+    },
+    {
+      "id": "c530fc27-3672-4d61-8f9f-76576e8ce9b4",
+      "date": "2026-08-21",
+      "project": "Starbucks Harlingen",
+      "gc": "Steeplechase Ventures LLC",
+      "address": "13th St. & 77 Sunshine St.",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
       "notes": ""
     },
     {
