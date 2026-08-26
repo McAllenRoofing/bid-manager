@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-26T21:12:13.458Z",
+  "updatedAt": "2026-08-26T21:12:21.887Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -235,7 +235,7 @@
       "gc": "Helker & Crawford",
       "address": "El Rancho Rd. & Jackson Rd., McAllen, TX 78577",
       "roof": "PVC",
-      "amount": 0,
+      "amount": 62500,
       "status": "Estimating",
       "notes": ""
     },
