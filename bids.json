@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-26T21:12:21.887Z",
+  "updatedAt": "2026-08-27T15:30:35.282Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -251,17 +251,6 @@
       "notes": ""
     },
     {
-      "id": "f649f636-cdc5-42ac-854a-88b58a3d4a88",
-      "date": "2026-08-28",
-      "project": "Tropical Texas Behavioral Health Outpatient Plaza II",
-      "gc": "Gerlach Builders",
-      "address": "Harlingen TX",
-      "roof": "Metal Roof",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": "Standing Seam and Flat Roofs"
-    },
-    {
       "id": "f7d188f8-7e4e-48e5-a2ba-149f07f8e008",
       "date": "2026-08-28",
       "project": "Quick Quack Car Wash",
@@ -271,6 +260,17 @@
       "amount": 0,
       "status": "Estimating",
       "notes": ""
+    },
+    {
+      "id": "f649f636-cdc5-42ac-854a-88b58a3d4a88",
+      "date": "2026-09-01",
+      "project": "Tropical Texas Behavioral Health Outpatient Plaza II",
+      "gc": "Gerlach Builders",
+      "address": "Harlingen TX",
+      "roof": "Metal Roof",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": "Standing Seam and Flat Roofs"
     },
     {
       "id": "a28c0ae4-e6bf-4e3f-a5f2-8e2acac056f0",
