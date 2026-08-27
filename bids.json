@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-27T21:06:16.907Z",
+  "updatedAt": "2026-08-27T21:06:22.694Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -258,7 +258,7 @@
       "address": "FM 78 & Crestway Converse TX",
       "roof": "TPO",
       "amount": 62500,
-      "status": "Estimating",
+      "status": "Submitted",
       "notes": ""
     },
     {
