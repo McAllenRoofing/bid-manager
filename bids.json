@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-28T18:57:22.825Z",
+  "updatedAt": "2026-08-28T20:01:00.992Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -369,6 +369,17 @@
       "roof": "PVC",
       "amount": 0,
       "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "8664a944-124f-4f08-b9c1-a9013abca70a",
+      "date": "2026-09-18",
+      "project": "Texas General Medical Center - Schematic Design",
+      "gc": "Robins & Morton",
+      "address": "15400 North Shary Road, McAllen, TX 78504",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Invited",
       "notes": ""
     }
   ]
