@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-28T20:01:00.992Z",
+  "updatedAt": "2026-08-28T21:18:13.741Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -290,6 +290,17 @@
       "gc": "7B Building & Development",
       "address": "4614 Boca Chica Boulevard, Brownsville, TX 78521",
       "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "0f90d2dc-2bde-4735-9c0d-728ac8686c57",
+      "date": "2026-09-01",
+      "project": "Santa Rosa ISD Animal Renovation",
+      "gc": "Gerlach Builders",
+      "address": "Santa Rosa",
+      "roof": "Metal Roof",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
