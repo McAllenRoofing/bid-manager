@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-27T21:06:22.694Z",
+  "updatedAt": "2026-08-28T18:57:22.825Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -356,6 +356,17 @@
       "gc": "Whiting - Turner",
       "address": "100A East Alton Gloor Boulevard, Brownsville, TX 78526",
       "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "8cb29c3b-d826-4eea-9b3c-c9bf8cd02965",
+      "date": "2026-09-15",
+      "project": "7 Eleven #42792 San Benito",
+      "gc": "Black Canyon",
+      "address": "2389 East Expressway 83, Weslaco, TX 78596",
+      "roof": "PVC",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
