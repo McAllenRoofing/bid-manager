@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-31T14:53:09.674Z",
+  "updatedAt": "2026-08-31T21:14:22.985Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -391,6 +391,17 @@
       "roof": "TPO",
       "amount": 0,
       "status": "Invited",
+      "notes": ""
+    },
+    {
+      "id": "0848e443-b45d-4630-b5e2-73efa0aa2435",
+      "date": "2026-09-18",
+      "project": "Retail Building",
+      "gc": "Urban Contractors",
+      "address": "305 N. Alton Blvd.  Alton TX",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
       "notes": ""
     },
     {
