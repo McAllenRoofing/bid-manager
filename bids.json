@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-08-31T14:50:57.513Z",
+  "updatedAt": "2026-08-31T14:53:09.674Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -391,6 +391,17 @@
       "roof": "TPO",
       "amount": 0,
       "status": "Invited",
+      "notes": ""
+    },
+    {
+      "id": "95dd98b4-c88c-426b-b688-53e5d29417eb",
+      "date": "2026-09-24",
+      "project": "New Maintenace Facility",
+      "gc": "Barcom",
+      "address": "Corpus Christi",
+      "roof": "Other",
+      "amount": 0,
+      "status": "Estimating",
       "notes": ""
     }
   ]
