@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-01T13:10:51.767Z",
+  "updatedAt": "2026-09-01T19:37:58.648Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -267,9 +267,9 @@
       "project": "Circle K",
       "gc": "7B Building & Development",
       "address": "4614 Boca Chica Boulevard, Brownsville, TX 78521",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
+      "roof": "PVC",
+      "amount": 49450,
+      "status": "Submitted",
       "notes": ""
     },
     {
