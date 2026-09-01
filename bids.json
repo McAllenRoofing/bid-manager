@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-01T19:37:58.648Z",
+  "updatedAt": "2026-09-01T21:00:55.972Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -269,6 +269,17 @@
       "address": "4614 Boca Chica Boulevard, Brownsville, TX 78521",
       "roof": "PVC",
       "amount": 49450,
+      "status": "Submitted",
+      "notes": ""
+    },
+    {
+      "id": "e6e8c54b-fa29-44a1-b368-aff321009ea8",
+      "date": "2026-09-01",
+      "project": "7 Eleven #42899",
+      "gc": "Ameritek",
+      "address": "Brownsville - Emerson Rd",
+      "roof": "PVC",
+      "amount": 68400,
       "status": "Submitted",
       "notes": ""
     },
