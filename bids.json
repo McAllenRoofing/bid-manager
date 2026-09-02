@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-02T20:24:28.770Z",
+  "updatedAt": "2026-09-02T20:27:18.766Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -381,6 +381,17 @@
       "amount": 0,
       "status": "Estimating",
       "notes": ""
+    },
+    {
+      "id": "773ffb88-a628-4874-a1ea-428147ada9d9",
+      "date": "2026-09-13",
+      "project": "Mimco – Family Dollar (San Antonio, TX)",
+      "gc": "Mimco",
+      "address": "3606 Pleasanton Road, San Antonio",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": "Re-Roof - 80 Mil TPO"
     },
     {
       "id": "8cb29c3b-d826-4eea-9b3c-c9bf8cd02965",
