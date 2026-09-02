@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-02T13:04:59.773Z",
+  "updatedAt": "2026-09-02T18:44:48.357Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -290,7 +290,7 @@
       "gc": "Gerlach Builders",
       "address": "Harlingen TX",
       "roof": "Metal Roof",
-      "amount": 0,
+      "amount": 1083900,
       "status": "Estimating",
       "notes": "Standing Seam and Flat Roofs"
     },
