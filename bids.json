@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-01T21:00:55.972Z",
+  "updatedAt": "2026-09-02T13:04:59.773Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -389,6 +389,17 @@
       "gc": "Black Canyon",
       "address": "2389 East Expressway 83, Weslaco, TX 78596",
       "roof": "PVC",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "a0185ea4-345b-4c66-aaae-8e328fe2ca4f",
+      "date": "2026-09-15",
+      "project": "Marena South Padre Island Condos",
+      "gc": "EB Merit Construction",
+      "address": "South Padre Island, Texas 78597",
+      "roof": "Other",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
