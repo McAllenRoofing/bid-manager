@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-03T13:44:38.021Z",
+  "updatedAt": "2026-09-03T18:56:53.859Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -377,6 +377,17 @@
       "project": "Valley Regional Medical Center - ER Expansion & Renovation",
       "gc": "Whiting - Turner",
       "address": "100A East Alton Gloor Boulevard, Brownsville, TX 78526",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "b372c4f0-0a3e-4d35-8964-dd1099256358",
+      "date": "2026-09-11",
+      "project": "D-Bat",
+      "gc": "Gerlach Builders",
+      "address": "Harlingen,  Texas",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
