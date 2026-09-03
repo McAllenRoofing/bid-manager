@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-03T18:56:53.859Z",
+  "updatedAt": "2026-09-03T19:40:08.681Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -432,6 +432,17 @@
       "project": "Living Smart",
       "gc": "LS",
       "address": "McAllen",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "65fd75bf-d58c-41dd-92f3-9b21c34c96fc",
+      "date": "2026-09-16",
+      "project": "Shell Building in Corpus Christi",
+      "gc": "Menemsha Development Group, Inc",
+      "address": "Corpus Christi, TX",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
