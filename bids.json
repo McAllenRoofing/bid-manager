@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-02T20:27:18.766Z",
+  "updatedAt": "2026-09-03T13:44:38.021Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -411,6 +411,17 @@
       "gc": "EB Merit Construction",
       "address": "South Padre Island, Texas 78597",
       "roof": "Other",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "1b019a95-3f98-4ee8-9c6a-fb05b59a87c7",
+      "date": "2026-09-15",
+      "project": "Living Smart",
+      "gc": "LS",
+      "address": "McAllen",
+      "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
