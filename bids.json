@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T13:25:19.715Z",
+  "updatedAt": "2026-09-04T16:55:19.347Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -322,9 +322,9 @@
       "project": "Crunch Fitness",
       "gc": "Empire Construction",
       "address": "706 Dixieland Road, Harlingen, TX 78550",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
+      "roof": "Other",
+      "amount": 14300,
+      "status": "Submitted",
       "notes": ""
     },
     {
