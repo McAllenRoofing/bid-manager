@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T19:55:41.393Z",
+  "updatedAt": "2026-09-04T19:55:49.295Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -335,7 +335,7 @@
       "address": "5702 Weber Rd, Corpus Christi, TX 78413.",
       "roof": "TPO",
       "amount": 177300,
-      "status": "Reviewing",
+      "status": "Submitted",
       "notes": ""
     },
     {
