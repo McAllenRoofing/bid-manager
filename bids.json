@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T19:38:30.724Z",
+  "updatedAt": "2026-09-04T19:55:41.393Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -324,7 +324,7 @@
       "address": "Houston TX",
       "roof": "TPO",
       "amount": 62500,
-      "status": "Estimating",
+      "status": "Submitted",
       "notes": ""
     },
     {
