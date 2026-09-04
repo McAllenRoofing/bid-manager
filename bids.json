@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-03T20:58:57.067Z",
+  "updatedAt": "2026-09-04T13:25:19.715Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -367,6 +367,17 @@
       "gc": "Gerlach Builders",
       "address": "Harlignen TX",
       "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "74967c59-a640-4387-aadb-d5d088fef9c6",
+      "date": "2026-09-09",
+      "project": "Capital Brain and Spine Finish Out",
+      "gc": "SAO Construction L.L.C",
+      "address": "901 S 10th Street Suite 230 McAllen Texas",
+      "roof": "Other",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
