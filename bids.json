@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T16:57:42.540Z",
+  "updatedAt": "2026-09-04T19:38:30.724Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -323,7 +323,7 @@
       "gc": "Lonestar Builders",
       "address": "Houston TX",
       "roof": "TPO",
-      "amount": 0,
+      "amount": 62500,
       "status": "Estimating",
       "notes": ""
     },
