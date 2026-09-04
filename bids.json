@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T19:56:39.138Z",
+  "updatedAt": "2026-09-04T20:32:43.658Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -355,6 +355,17 @@
       "project": "Zaxby's",
       "gc": "Gerlach Builders",
       "address": "Harlignen TX",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "804f1907-e1b4-4edd-8493-9f337e4591a2",
+      "date": "2026-09-08",
+      "project": "Test BId",
+      "gc": "MVR",
+      "address": "McAllen",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
