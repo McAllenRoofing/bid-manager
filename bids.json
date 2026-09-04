@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-04T16:55:19.347Z",
+  "updatedAt": "2026-09-04T16:57:42.540Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -103,17 +103,6 @@
       "roof": "Other",
       "amount": 0,
       "status": "Declined",
-      "notes": ""
-    },
-    {
-      "id": "13399b40-e2ea-4efe-8520-2195cc59a0d4",
-      "date": "2026-08-17",
-      "project": "Goodwill Renovation (Formerly Walgreens)",
-      "gc": "South Texas Building Partners",
-      "address": "5702 Weber Rd, Corpus Christi, TX 78413.",
-      "roof": "TPO",
-      "amount": 177300,
-      "status": "Submitted",
       "notes": ""
     },
     {
@@ -336,6 +325,17 @@
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "13399b40-e2ea-4efe-8520-2195cc59a0d4",
+      "date": "2026-09-08",
+      "project": "Goodwill Renovation (Formerly Walgreens)",
+      "gc": "South Texas Building Partners",
+      "address": "5702 Weber Rd, Corpus Christi, TX 78413.",
+      "roof": "TPO",
+      "amount": 177300,
+      "status": "Reviewing",
       "notes": ""
     },
     {
