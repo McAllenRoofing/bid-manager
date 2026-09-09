@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-09T13:17:09.773Z",
+  "updatedAt": "2026-09-09T13:19:25.320Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -380,6 +380,17 @@
       "roof": "Other",
       "amount": 0,
       "status": "Declined",
+      "notes": ""
+    },
+    {
+      "id": "39e8d489-53da-40e6-8e88-809ca3ea9aeb",
+      "date": "2026-09-10",
+      "project": "City of Hidalgo-Restrooms",
+      "gc": "Gerlach Builders",
+      "address": "Hidalgo TX",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
       "notes": ""
     },
     {
