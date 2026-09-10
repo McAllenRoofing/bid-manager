@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-10T13:19:33.522Z",
+  "updatedAt": "2026-09-10T14:31:12.186Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -388,9 +388,9 @@
       "project": "City of Hidalgo-Restrooms",
       "gc": "Gerlach Builders",
       "address": "Hidalgo TX",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
+      "roof": "Metal Roof",
+      "amount": 7650,
+      "status": "Submitted",
       "notes": ""
     },
     {
