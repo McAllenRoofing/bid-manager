@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-11T14:39:02.162Z",
+  "updatedAt": "2026-09-11T14:41:06.935Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -521,6 +521,17 @@
       "gc": "Barcom",
       "address": "Corpus Christi",
       "roof": "Other",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "8c180e75-d908-4853-ac0b-5e0f3899f0b4",
+      "date": "2026-09-25",
+      "project": "AutoZone TX10951",
+      "gc": "Triad Retail Construction",
+      "address": "Rio Grande City, Texas 78582",
+      "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
       "notes": ""
