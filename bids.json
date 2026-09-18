@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:10:48.415Z",
+  "updatedAt": "2026-09-18T20:11:04.354Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -435,17 +435,6 @@
       "roof": "PVC",
       "amount": 63200,
       "status": "Submitted",
-      "notes": ""
-    },
-    {
-      "id": "a03a3240-0341-4d89-9089-5dacb4269983",
-      "date": "2026-09-14",
-      "project": "Marena en South Padre Island",
-      "gc": "Paez Development",
-      "address": "8500  Padre Blvd.",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Declined",
       "notes": ""
     },
     {
