@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:09:10.216Z",
+  "updatedAt": "2026-09-18T20:09:18.415Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -500,7 +500,7 @@
       "address": "305 N. Alton Blvd.  Alton TX",
       "roof": "TPO",
       "amount": 0,
-      "status": "Estimating",
+      "status": "Submitted",
       "notes": ""
     },
     {
