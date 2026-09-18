@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T19:40:27.801Z",
+  "updatedAt": "2026-09-18T20:08:26.491Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -445,7 +445,7 @@
       "address": "8500  Padre Blvd.",
       "roof": "TPO",
       "amount": 0,
-      "status": "Estimating",
+      "status": "Declined",
       "notes": ""
     },
     {
