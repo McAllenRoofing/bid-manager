@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:11:29.606Z",
+  "updatedAt": "2026-09-18T20:28:14.889Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -336,17 +336,6 @@
       "roof": "TPO",
       "amount": 177300,
       "status": "Submitted",
-      "notes": ""
-    },
-    {
-      "id": "0f90d2dc-2bde-4735-9c0d-728ac8686c57",
-      "date": "2026-09-08",
-      "project": "Santa Rosa ISD Animal Renovation",
-      "gc": "Gerlach Builders",
-      "address": "Santa Rosa",
-      "roof": "Metal Roof",
-      "amount": 0,
-      "status": "Estimating",
       "notes": ""
     },
     {
