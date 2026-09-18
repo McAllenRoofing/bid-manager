@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-15T15:35:47.151Z",
+  "updatedAt": "2026-09-18T19:40:27.801Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -509,6 +509,17 @@
       "project": "7Brew Coffee – McAllen",
       "gc": "Citadel Development Services",
       "address": "Mcallen, Texas 78501",
+      "roof": "TPO",
+      "amount": 0,
+      "status": "Estimating",
+      "notes": ""
+    },
+    {
+      "id": "22a490d0-d532-447d-8194-88d41ce3b599",
+      "date": "2026-09-23",
+      "project": "Trust Now Emergency Center - Beeville",
+      "gc": "South Texas Building Parners",
+      "address": "BeeVille TX",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
