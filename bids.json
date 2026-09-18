@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:08:35.955Z",
+  "updatedAt": "2026-09-18T20:08:48.145Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -467,7 +467,7 @@
       "address": "McAllen",
       "roof": "TPO",
       "amount": 119400,
-      "status": "Estimating",
+      "status": "Submitted",
       "notes": "Plans Called for SPR, Submitted 60 Mil TPO Alternate."
     },
     {
