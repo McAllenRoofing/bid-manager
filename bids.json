@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:28:14.889Z",
+  "updatedAt": "2026-09-18T20:30:58.413Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -345,7 +345,7 @@
       "gc": "Gerlach Builders",
       "address": "Harlignen TX",
       "roof": "TPO",
-      "amount": 0,
+      "amount": 63360,
       "status": "Estimating",
       "notes": ""
     },
