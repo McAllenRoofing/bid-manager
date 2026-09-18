@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:11:04.354Z",
+  "updatedAt": "2026-09-18T20:11:29.606Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -520,17 +520,6 @@
       "project": "AutoZone TX10951",
       "gc": "Triad Retail Construction",
       "address": "Rio Grande City, Texas 78582",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
-    },
-    {
-      "id": "6ed1c35d-5ac6-4bae-8ebb-f544428e9515",
-      "date": "2026-09-25",
-      "project": "AutoZone",
-      "gc": "P & C Construction",
-      "address": "Rio Grande City TX",
       "roof": "TPO",
       "amount": 0,
       "status": "Estimating",
