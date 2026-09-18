@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "updatedAt": "2026-09-18T20:10:32.042Z",
+  "updatedAt": "2026-09-18T20:10:48.415Z",
   "bids": [
     {
       "id": "d9af354d-1d80-4fd1-b68d-021bb795af00",
@@ -469,17 +469,6 @@
       "amount": 119400,
       "status": "Submitted",
       "notes": "Plans Called for SPR, Submitted 60 Mil TPO Alternate."
-    },
-    {
-      "id": "65fd75bf-d58c-41dd-92f3-9b21c34c96fc",
-      "date": "2026-09-16",
-      "project": "Shell Building in Corpus Christi",
-      "gc": "Menemsha Development Group, Inc",
-      "address": "Corpus Christi, TX",
-      "roof": "TPO",
-      "amount": 0,
-      "status": "Estimating",
-      "notes": ""
     },
     {
       "id": "8664a944-124f-4f08-b9c1-a9013abca70a",
